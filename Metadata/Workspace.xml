@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{0f77e092-7d6a-406a-b3f2-56a6f48ed754}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Unity/Projets/Dwarves-Digging-Holes/Assets/StreamingAssets</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{67fd6580-b6f9-4d5f-802e-749804b6ff7f}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{83b28274-61d2-46df-82b6-ac147d62cdd3}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{fda7f878-e938-4eef-b541-d6b5d2dfb178}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{f237a371-bdaf-4033-999f-680a8ed32b9c}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{562a4078-b0ef-4898-8a79-79f99eba8dde}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{85544006-6f70-4855-859f-961e8f24a956}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{d169e077-6a0e-4d99-8509-76a1a57c9756}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{2f24315b-4b30-4881-913a-63382aee982e}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{7adf03ac-959a-48d1-afbb-5e47c228823e}</destination>
+		</relationship>
+	</object>
+</objects>
