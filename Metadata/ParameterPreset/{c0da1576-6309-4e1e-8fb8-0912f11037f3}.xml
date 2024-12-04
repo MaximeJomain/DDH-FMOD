@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c0da1576-6309-4e1e-8fb8-0912f11037f3}">
+		<property name="name">
+			<value>LowPassMenu</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f237a371-bdaf-4033-999f-680a8ed32b9c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{aa41668c-1633-46be-9640-b3c9d5b4c0b5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{aa41668c-1633-46be-9640-b3c9d5b4c0b5}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
