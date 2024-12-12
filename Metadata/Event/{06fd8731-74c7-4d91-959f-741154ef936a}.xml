@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{fd8e2e7c-c867-4bdc-8f25-17ceda71a377}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{29148b3a-907d-4976-9c6d-7e80b5abfec4}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{66b7750d-4e66-44a1-98de-27860e81231a}">
 		<relationship name="masterBus">
@@ -56,7 +59,11 @@
 			<destination>{6197c939-267e-48e6-9afb-1e50b8cf58c6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{10bc893a-1158-4d5f-85d9-03f1e98aa473}" />
+	<object class="EventAutomatableProperties" id="{10bc893a-1158-4d5f-85d9-03f1e98aa473}">
+		<property name="dopplerScale">
+			<value>500</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{bcbf1241-ffdc-4cbe-ac52-0f156d6af745}" />
 	<object class="Timeline" id="{c4b99e67-f0d4-459b-afef-b09a57320c5a}">
 		<property name="isProxyEnabled">
@@ -98,7 +105,7 @@
 	<object class="MixerBusPanner" id="{b7c09fa7-073a-4b09-a1ba-a566c413085d}" />
 	<object class="MultiSound" id="{a488c5bb-fb9e-4780-a1ca-def2f93c6411}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-20</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{76e81cc1-abad-4f98-b710-d66bb09063dc}</destination>
