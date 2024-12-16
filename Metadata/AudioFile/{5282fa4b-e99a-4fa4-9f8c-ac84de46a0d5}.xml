@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5282fa4b-e99a-4fa4-9f8c-ac84de46a0d5}">
 		<property name="assetPath">
-			<value>Sfx Squeaky Cart.mp3</value>
+			<value>SFX/Cart/Sfx Squeaky Cart.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
