@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{330c3dbe-0dc1-4e99-ab8a-fe88125eb085}">
+		<property name="name">
+			<value>Volume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f237a371-bdaf-4033-999f-680a8ed32b9c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7a726b36-e966-4743-ac2f-d23bc56b5b80}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7a726b36-e966-4743-ac2f-d23bc56b5b80}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{b2f78989-5670-4e94-9a36-f28ad29be0c0}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{b2f78989-5670-4e94-9a36-f28ad29be0c0}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
