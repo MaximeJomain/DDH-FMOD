@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{06fd8731-74c7-4d91-959f-741154ef936a}">
 		<property name="name">
-			<value>Rock destruction</value>
+			<value>Big Rock destruction</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7910371d-dec6-40e2-aa20-3c980736480c}</destination>
+			<destination>{37286a52-1f19-4d26-bc2a-55b9bf016637}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{66b7750d-4e66-44a1-98de-27860e81231a}</destination>
@@ -105,14 +105,12 @@
 	<object class="MixerBusPanner" id="{b7c09fa7-073a-4b09-a1ba-a566c413085d}" />
 	<object class="MultiSound" id="{a488c5bb-fb9e-4780-a1ca-def2f93c6411}">
 		<property name="volume">
-			<value>-20</value>
+			<value>8</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{76e81cc1-abad-4f98-b710-d66bb09063dc}</destination>
 			<destination>{791fa418-4275-450d-9df2-aedc1ebb37a7}</destination>
 			<destination>{d840941a-a602-47d9-b02e-3c142910150d}</destination>
-			<destination>{59e71f56-cbc2-4d60-be8b-2aba18fefde2}</destination>
-			<destination>{5017a7df-3527-4c19-b36e-c9cb79cc33f8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a9edd0a2-43f5-461f-ab2e-590aa253ac0c}" />
@@ -139,22 +137,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{c96fa8d8-96cb-451c-85b6-7ddf0a5b9738}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{59e71f56-cbc2-4d60-be8b-2aba18fefde2}">
-		<property name="volume">
-			<value>-2.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{48a4d006-de08-4ecb-9196-7e281c03cb7b}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{5017a7df-3527-4c19-b36e-c9cb79cc33f8}">
-		<property name="volume">
-			<value>-2.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{24be3a8a-8a89-4aa5-80d3-99f65d2686d5}</destination>
 		</relationship>
 	</object>
 </objects>

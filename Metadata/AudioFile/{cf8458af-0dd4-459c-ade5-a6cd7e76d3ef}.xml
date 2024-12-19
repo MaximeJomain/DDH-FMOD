@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{5282fa4b-e99a-4fa4-9f8c-ac84de46a0d5}">
+	<object class="AudioFile" id="{cf8458af-0dd4-459c-ade5-a6cd7e76d3ef}">
 		<property name="assetPath">
-			<value>SFX/Cart/Sfx Squeaky Cart.mp3</value>
+			<value>Wood Explosion 4.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>24.111020408163267</value>
+			<value>0.83591836734693881</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
