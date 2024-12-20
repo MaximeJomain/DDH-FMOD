@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c8c5bfa6-8bcf-44dd-85e0-16aa184918a1}">
 		<property name="name">
-			<value>Wood Explosion</value>
+			<value>Ladder Wood Explosion</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{daded1cd-ff17-456f-b398-5d7d604baa95}</destination>
+			<destination>{9112b9a7-0254-4d22-8529-97a6a4a0095f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{e156212f-1ec2-403f-96b4-f146eec3919d}</destination>

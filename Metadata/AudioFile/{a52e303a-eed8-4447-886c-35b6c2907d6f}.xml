@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a52e303a-eed8-4447-886c-35b6c2907d6f}">
 		<property name="assetPath">
-			<value>Wood Explosion 2.mp3</value>
+			<value>SFX/Start of the game/Ladder/Wood Explosion 2.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

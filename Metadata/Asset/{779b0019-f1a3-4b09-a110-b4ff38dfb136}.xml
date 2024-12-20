@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{4c427a73-4d89-483f-b241-380ee9a24947}">
+	<object class="EncodableAsset" id="{779b0019-f1a3-4b09-a110-b4ff38dfb136}">
 		<property name="assetPath">
-			<value>SFX/Pickaxe/Rock destruction/</value>
+			<value>UI Menu/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{15c67d33-1bff-4afc-b7ef-7455595b7a9b}">
 		<property name="assetPath">
-			<value>SFX/Pickaxe/Rock destruction/small-rock-break-1-1.wav</value>
+			<value>SFX/Rocks/Big Rock/small-rock-break-1-1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

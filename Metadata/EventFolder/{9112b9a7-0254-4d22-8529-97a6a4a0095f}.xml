@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EventFolder" id="{daded1cd-ff17-456f-b398-5d7d604baa95}">
+	<object class="EventFolder" id="{9112b9a7-0254-4d22-8529-97a6a4a0095f}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Purple</value>
 		</property>
 		<property name="name">
-			<value>Ladder</value>
+			<value>Start of the game</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a336e76c-a23d-40bc-b0be-3d8dab426c35}</destination>

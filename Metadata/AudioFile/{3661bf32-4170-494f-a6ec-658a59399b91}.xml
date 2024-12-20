@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3661bf32-4170-494f-a6ec-658a59399b91}">
 		<property name="assetPath">
-			<value>Small Explosion 1.mp3</value>
+			<value>SFX/Rocks/Rock/Small Explosion 1.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

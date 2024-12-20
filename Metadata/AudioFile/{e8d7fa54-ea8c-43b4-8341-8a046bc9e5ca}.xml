@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{e5216e91-f83e-43d1-881a-d758d1497984}">
+	<object class="AudioFile" id="{e8d7fa54-ea8c-43b4-8341-8a046bc9e5ca}">
 		<property name="assetPath">
-			<value>SFX/8BIT_RETRO_Beep_1_Short_mono.wav</value>
+			<value>SFX/Start of the game/Volcano Eruption Sound Effect.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.045306122448979594</value>
+			<value>6.7918367346938773</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
