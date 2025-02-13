@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f4b91315-a633-4d11-bf8d-29435f578e4b}">
+		<property name="assetPath">
+			<value>SFX/Golds/NuggetInTheCart/NuggetInTheCart5.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.26400000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
+		</relationship>
+	</object>
+</objects>
