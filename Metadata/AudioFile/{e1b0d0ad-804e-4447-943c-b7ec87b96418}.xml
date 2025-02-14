@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e1b0d0ad-804e-4447-943c-b7ec87b96418}">
+		<property name="assetPath">
+			<value>SFX/Intro/rocks-intro.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.9444897959183671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
+		</relationship>
+	</object>
+</objects>
