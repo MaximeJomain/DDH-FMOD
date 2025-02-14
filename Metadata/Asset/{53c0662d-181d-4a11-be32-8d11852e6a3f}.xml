@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{54d6e7ab-ba94-45e6-bfe8-2b6d7e546c76}">
+	<object class="EncodableAsset" id="{53c0662d-181d-4a11-be32-8d11852e6a3f}">
 		<property name="assetPath">
-			<value>SFX/Dwarf/Forged/</value>
+			<value>SFX/Pickaxe/Froged/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>

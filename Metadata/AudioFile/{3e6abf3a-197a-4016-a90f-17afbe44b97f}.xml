@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3e6abf3a-197a-4016-a90f-17afbe44b97f}">
 		<property name="assetPath">
-			<value>SFX/Dwarf/Forged/Forged3.mp3</value>
+			<value>SFX/Pickaxe/Froged/Forged3.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

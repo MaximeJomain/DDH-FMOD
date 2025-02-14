@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{44f7c71a-d50d-494b-b97f-022e43d5aa0c}">
 		<property name="assetPath">
-			<value>SFX/EventInGame/eventGoldChariotSound.mp3</value>
+			<value>SFX/EventInGame/lightning.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
