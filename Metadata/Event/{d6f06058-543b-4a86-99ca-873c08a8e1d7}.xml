@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d6f06058-543b-4a86-99ca-873c08a8e1d7}">
 		<property name="name">
-			<value>AAAAA</value>
+			<value>eventGoldChariotSound</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0480347d-1046-46de-a7d4-077594a4baab}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7d5bb4ac-b34a-4bf4-bb2d-16562ea7356f}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{c04f93d3-c9b9-45b7-a951-35d1965b3839}</destination>
 		</relationship>
@@ -84,7 +87,7 @@
 	</object>
 	<object class="MultiSound" id="{18ecffba-7eed-46db-8d25-f676a0854790}">
 		<relationship name="sounds">
-			<destination>{af006c4f-abfa-4bad-a379-cd675e74398a}</destination>
+			<destination>{22995d9c-ed4b-4455-9c8f-8e011032050c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{214169ac-8660-4021-af2c-02f5f58ef52d}">
@@ -99,7 +102,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ac3be9c8-8112-4951-aa5a-952b6a75793a}" />
-	<object class="SingleSound" id="{af006c4f-abfa-4bad-a379-cd675e74398a}" />
+	<object class="SingleSound" id="{22995d9c-ed4b-4455-9c8f-8e011032050c}">
+		<relationship name="audioFile">
+			<destination>{44f7c71a-d50d-494b-b97f-022e43d5aa0c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{ea2cc73e-f2b5-439e-94d1-d6abccff1c5c}" />
 	<object class="MixerBusFader" id="{f34702f7-58f0-4e1e-9e9c-842b180b2fd8}" />
 </objects>
