@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{dee7d2c4-873b-4c9e-b559-2bafea01a614}">
+		<property name="name">
+			<value>Music</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ffcf1500-71ef-4e58-a4b9-9a8d6412cac7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2369b623-0b43-49ae-a873-a38a14e4a7bd}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4166fa64-87a4-4296-b023-c26929f0053c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ffcf1500-71ef-4e58-a4b9-9a8d6412cac7}">
+		<relationship name="effects">
+			<destination>{554a5bea-12a4-454c-8c6a-381700c880d2}</destination>
+			<destination>{088d00c6-d405-483c-ac99-87ddb6f27180}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2369b623-0b43-49ae-a873-a38a14e4a7bd}" />
+	<object class="LowpassEffect" id="{554a5bea-12a4-454c-8c6a-381700c880d2}">
+		<property name="cutoff">
+			<value>1500</value>
+		</property>
+		<relationship name="automators">
+			<destination>{1e05d9e5-ff0e-42d1-8068-d3f36211e9b0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{088d00c6-d405-483c-ac99-87ddb6f27180}" />
+	<object class="Automator" id="{1e05d9e5-ff0e-42d1-8068-d3f36211e9b0}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cutoff</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{8f500e5d-b08d-4862-8f9a-99d295912573}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{8f500e5d-b08d-4862-8f9a-99d295912573}">
+		<relationship name="parameter">
+			<destination>{aa41668c-1633-46be-9640-b3c9d5b4c0b5}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{f5617916-5160-402c-a712-6bce8da2b277}</destination>
+			<destination>{862c82f4-3658-4668-b65e-a1d3e61461f9}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{f5617916-5160-402c-a712-6bce8da2b277}">
+		<property name="position">
+			<value>0.0042372881355932203</value>
+		</property>
+		<property name="value">
+			<value>5000</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{862c82f4-3658-4668-b65e-a1d3e61461f9}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>1500</value>
+		</property>
+	</object>
+</objects>

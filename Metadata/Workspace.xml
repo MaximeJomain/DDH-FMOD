@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{0f77e092-7d6a-406a-b3f2-56a6f48ed754}">
 		<property name="builtBanksOutputDirectory">
-			<value>../Dwarves-Digging-Holes/Assets/StreamingAssets</value>
+			<value>../../projet/Dwarves-Digging-Holes/Assets/StreamingAssets</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{67fd6580-b6f9-4d5f-802e-749804b6ff7f}</destination>
