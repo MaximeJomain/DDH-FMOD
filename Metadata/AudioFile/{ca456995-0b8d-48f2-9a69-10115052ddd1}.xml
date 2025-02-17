@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ca456995-0b8d-48f2-9a69-10115052ddd1}">
+		<property name="assetPath">
+			<value>SFX/Goblins/HOOO/Hooo2.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.704</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
+		</relationship>
+	</object>
+</objects>
