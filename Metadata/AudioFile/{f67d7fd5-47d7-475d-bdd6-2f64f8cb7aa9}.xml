@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{f67d7fd5-47d7-475d-bdd6-2f64f8cb7aa9}">
 		<property name="assetPath">
-			<value>DDH_MainMenu1.wav</value>
+			<value>OST/DDH_MainMenu1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
