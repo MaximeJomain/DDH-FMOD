@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6ccb24fb-0aee-43ba-9567-499192855797}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-20</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{57f2f356-6c00-4871-8692-120cbe8409ec}</destination>
@@ -115,31 +115,49 @@
 	<object class="MixerBusFader" id="{d0c78ddf-0952-4267-9ddf-3162dab1b7b9}" />
 	<object class="MixerBusFader" id="{3b798e92-8f8c-4749-8fb5-8edd650b431c}" />
 	<object class="SingleSound" id="{cb157f3c-dfee-4175-97f2-3ad19d607685}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{f360ad28-a2e3-4a8c-b5d3-3092d4c6f428}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{fcb4ef3f-b4aa-468d-8e30-7546ba01e1d7}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{8ec6cf23-32eb-4805-9673-35ab345d3923}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f97581d0-bb5c-4cba-bc50-7aa267352be6}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4b4a074e-6a8a-4b71-a14b-d9f5526b3533}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0bde69ba-94b8-4e83-910b-9cee2f05efa7}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{be9e8828-8268-441f-9150-4e3940295198}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{4c4a2e1a-e349-41cf-9da8-cdaf7eef395d}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{8d0976fe-fd1e-42e6-b785-e7274edc2aea}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{00c5b07c-9ce5-4b4b-a62a-d554686f3e8c}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{77e49ec1-fe89-4edb-b0f5-3eefec6a093f}</destination>
 		</relationship>
