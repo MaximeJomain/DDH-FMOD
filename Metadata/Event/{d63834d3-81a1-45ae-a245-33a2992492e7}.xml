@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d63834d3-81a1-45ae-a245-33a2992492e7}">
 		<property name="name">
-			<value>DepopBubbleTuto</value>
+			<value>MissionAccomplished</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b09763cd-24ce-45a2-9a4d-fc8bac645ac6}</destination>
@@ -72,9 +72,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6c7e2529-8d72-4c53-8c63-50be7ad9a9ae}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{6e875104-726b-4c74-8140-42024cd0a736}</destination>
 		</relationship>
@@ -87,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{4edf9e22-c619-4194-bc44-c7dd59015647}">
 		<relationship name="sounds">
-			<destination>{d37e5d38-f372-4f3a-a278-ecf0ebca81f6}</destination>
+			<destination>{eadfa578-e73c-4f89-b9ec-47e63a078135}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{37de11a3-0b09-4b73-b847-dbcfb96efe46}">
@@ -102,12 +99,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b74fafa4-eabe-4313-91ce-4845d1bfda4b}" />
-	<object class="SingleSound" id="{d37e5d38-f372-4f3a-a278-ecf0ebca81f6}">
-		<property name="volume">
-			<value>10</value>
-		</property>
+	<object class="SingleSound" id="{eadfa578-e73c-4f89-b9ec-47e63a078135}">
 		<relationship name="audioFile">
-			<destination>{6207a3a0-6202-4ef2-96da-5f83f17b497c}</destination>
+			<destination>{8bc0f792-de13-457e-89bb-7c6a3c3fbc31}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{4087b844-bb43-4506-b569-8809b71bbecd}" />
