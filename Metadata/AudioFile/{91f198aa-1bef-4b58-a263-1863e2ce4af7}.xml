@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{aadd57e6-62fb-41e6-8177-c3e83b5694f9}">
+	<object class="AudioFile" id="{91f198aa-1bef-4b58-a263-1863e2ce4af7}">
 		<property name="assetPath">
 			<value>SFX/Dwarf/Hooo/Hooo2.mp3</value>
 		</property>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.704</value>
+			<value>0.88800000000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c0efb373-5339-4ec7-ab04-7f032c4aaa90}</destination>
